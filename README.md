@@ -96,9 +96,38 @@ Pay-per-event; `onlyNewSinceLastRun` filtering happens before dataset push, so y
 
 Both actors also expose a **`mode=report`** that collapses one company into a single row with `hiringScore` 0–100, `priorityRoles[]`, `departmentSignals[]`, `expansionSignals[]`, etc. — see the Apify Store page for the full schema.
 
+## 4. Cross-company compensation pivot ([python/salary_pivot.py](python/salary_pivot.py))
+
+```bash
+python python/salary_pivot.py openai ramp notion linear
+```
+
+Keeps USD/year engineering roles only, prints per-company p25/median/p75 for both the `salaryMin` and `salaryMax` columns, plus the top 10 highest-paying individual roles. On 2026-10-21 (14 OpenAI + Ramp eng rows with disclosed USD bands):
+
+```
+company        roles   min p25   min med   min p75   max p25   max med   max p75
+--------------------------------------------------------------------------------
+openai             4   258,250   266,000   275,250   343,750   390,000   452,500
+ramp              14   147,000   185,630   220,000   220,000   294,150   330,000
+
+Top 10 highest max-pay engineering roles:
+  openai     $ 266K-$ 445K  Software Engineer, Scaled Abuse
+  openai     $ 266K-$ 445K  Software Engineer, Observability
+  ramp       $ 275K-$ 400K  Tech Lead, Ramp Travel
+  ramp       $ 280K-$ 385K  Design Systems Lead
+  openai     $ 257K-$ 335K  Technical Program Manager, Compute Infrastructure
+  ...
+```
+
+Non-USD and non-yearly rows are skipped so the aggregate stays comparable; roughly 15 % of rows fall out of the pivot in practice.
+
 ## Multi-pipeline
 
 Change the `stateKey` ("daily-prod" / "weekly-recruiting" / "friend-x-watchlist") to run multiple independent diffs against the same boards without their state clobbering each other.
+
+## Sample output
+
+Check [`samples/`](samples/) for `greenhouse_sample.json` and `ashby_sample.json` — real snapshots so you can see the schema without running anything.
 
 ## Use it from AI agents (MCP)
 
