@@ -129,6 +129,18 @@ Change the `stateKey` ("daily-prod" / "weekly-recruiting" / "friend-x-watchlist"
 
 Check [`samples/`](samples/) for `greenhouse_sample.json` and `ashby_sample.json` — real snapshots so you can see the schema without running anything.
 
+## 5. Merge Greenhouse + Ashby into one CSV ([python/merge_ats_csv.py](python/merge_ats_csv.py))
+
+Both actors return a superset of fields specific to their ATS. When you want to pivot across companies in a spreadsheet or hand the data to a BI tool, flatten both exports into a 12-column unified schema:
+
+```bash
+python python/merge_ats_csv.py     --greenhouse gh_dataset.json     --ashby ashby_dataset.json     --out jobs.csv
+```
+
+Columns: `ats, company, title, url, location, workplaceType, seniority, aiEmploymentType, salaryMin, salaryMax, salaryCurrency, publishedAt`.
+
+The sample [`samples/jobs_merged_449.csv`](samples/jobs_merged_449.csv) is a real export from 2026-10-21: 240 Greenhouse rows (Anthropic / Airbnb / Stripe / Figma, 60 each) + 209 Ashby rows (OpenAI 60 / Ramp 60 / Notion 60 / Linear 29). 113 of those 449 rows carry a disclosed salary band — ready for `pandas.read_csv("samples/jobs_merged_449.csv").dropna(subset=["salaryMin"])`.
+
 ## Use it from AI agents (MCP)
 
 ```json
