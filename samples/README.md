@@ -18,6 +18,25 @@ Includes `seniority` / `remoteType` / `aiEmploymentType` classification, `parseC
 
 Description bodies (`descriptionPlain`, `descriptionHtml`) are stripped from the samples to keep the files small — they are present on every row in a real run.
 
+## jobs_merged_449.csv
+
+Full output of [`python/merge_ats_csv.py`](../python/merge_ats_csv.py) run on the two JSON exports above (extended from 10 rows each to 60 per Greenhouse board + full Ashby board, as of 2026-10-21). 449 rows total:
+
+| ATS         | Companies                            | Rows | With salary band |
+| ----------- | ------------------------------------ | ---- | ---------------- |
+| Greenhouse  | anthropic, airbnb, stripe, figma     | 240  | 0 (no pay-transparency header on these boards) |
+| Ashby       | openai, ramp, notion, linear         | 209  | 113 (54 %)       |
+
+Columns: `ats, company, title, url, location, workplaceType, seniority, aiEmploymentType, salaryMin, salaryMax, salaryCurrency, publishedAt`.
+
+Load it with:
+
+```python
+import pandas as pd
+df = pd.read_csv("samples/jobs_merged_449.csv")
+df[df["salaryMin"].notna()].groupby("company")["salaryMax"].median().sort_values()
+```
+
 ## Caveats
 
 - Open-role counts and compensation bands change daily. These files are a **snapshot**, not a live feed.
