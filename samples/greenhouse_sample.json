@@ -1,0 +1,373 @@
+[
+  {
+    "boardSlug": "anthropic",
+    "jobId": 5456619008,
+    "internalJobId": 4563891008,
+    "title": "3P Revenue Accounting & Reporting",
+    "absoluteUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5456619008",
+    "locationName": "San Francisco, CA | Seattle, WA",
+    "workplaceType": "Onsite",
+    "metadata": [
+      {
+        "name": "Location Type",
+        "value": "On-Site",
+        "valueType": "single_select"
+      }
+    ],
+    "departments": [],
+    "offices": [],
+    "requisitionId": "REQ-26-1145-01",
+    "firstPublished": "2026-10-19T11:17:24-04:00",
+    "updatedAt": "2026-10-19T11:17:24-04:00",
+    "applicationDeadline": null,
+    "language": "en",
+    "companyName": "Anthropic",
+    "contentHtml": null,
+    "aiDisclaimer": null,
+    "aiOptOutUrl": null,
+    "seniority": "mid",
+    "remoteType": "on_site",
+    "aiEmploymentType": null,
+    "parseConfidence": 0.65,
+    "warnings": [
+      "no_description",
+      "no_department"
+    ],
+    "isNew": true,
+    "scrapedAt": "2026-10-21T11:47:37+00:00"
+  },
+  {
+    "boardSlug": "anthropic",
+    "jobId": 4461450008,
+    "internalJobId": 4147866008,
+    "title": "Account Executive, AI Native",
+    "absoluteUrl": "https://job-boards.greenhouse.io/anthropic/jobs/4461450008",
+    "locationName": "New York City, NY; San Francisco, CA | New York City, NY",
+    "workplaceType": "Onsite",
+    "metadata": [
+      {
+        "name": "Location Type",
+        "value": "On-Site",
+        "valueType": "single_select"
+      }
+    ],
+    "departments": [],
+    "offices": [],
+    "requisitionId": "3356",
+    "firstPublished": "2024-12-20T13:53:38-05:00",
+    "updatedAt": "2026-08-21T21:32:54-04:00",
+    "applicationDeadline": null,
+    "language": "en",
+    "companyName": "Anthropic",
+    "contentHtml": null,
+    "aiDisclaimer": null,
+    "aiOptOutUrl": null,
+    "seniority": "mid",
+    "remoteType": "on_site",
+    "aiEmploymentType": null,
+    "parseConfidence": 0.65,
+    "warnings": [
+      "no_description",
+      "no_department"
+    ],
+    "isNew": true,
+    "scrapedAt": "2026-10-21T11:47:37+00:00"
+  },
+  {
+    "boardSlug": "anthropic",
+    "jobId": 5391376008,
+    "internalJobId": 4533087008,
+    "title": "Account Executive - DNB",
+    "absoluteUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391376008",
+    "locationName": "Singapore",
+    "workplaceType": "Onsite",
+    "metadata": [
+      {
+        "name": "Location Type",
+        "value": "On-Site",
+        "valueType": "single_select"
+      }
+    ],
+    "departments": [],
+    "offices": [],
+    "requisitionId": "266765",
+    "firstPublished": "2026-08-20T16:34:11-04:00",
+    "updatedAt": "2026-08-28T16:47:28-04:00",
+    "applicationDeadline": null,
+    "language": "en",
+    "companyName": "Anthropic",
+    "contentHtml": null,
+    "aiDisclaimer": null,
+    "aiOptOutUrl": null,
+    "seniority": "mid",
+    "remoteType": "on_site",
+    "aiEmploymentType": null,
+    "parseConfidence": 0.65,
+    "warnings": [
+      "no_description",
+      "no_department"
+    ],
+    "isNew": true,
+    "scrapedAt": "2026-10-21T11:47:38+00:00"
+  },
+  {
+    "boardSlug": "anthropic",
+    "jobId": 5391381008,
+    "internalJobId": 4533090008,
+    "title": "Account Executive - Public Sector (ASEAN)",
+    "absoluteUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391381008",
+    "locationName": "Singapore",
+    "workplaceType": "Onsite",
+    "metadata": [
+      {
+        "name": "Location Type",
+        "value": "On-Site",
+        "valueType": "single_select"
+      }
+    ],
+    "departments": [],
+    "offices": [],
+    "requisitionId": "266766",
+    "firstPublished": "2026-08-20T16:55:45-04:00",
+    "updatedAt": "2026-08-28T16:47:28-04:00",
+    "applicationDeadline": null,
+    "language": "en",
+    "companyName": "Anthropic",
+    "contentHtml": null,
+    "aiDisclaimer": null,
+    "aiOptOutUrl": null,
+    "seniority": "mid",
+    "remoteType": "on_site",
+    "aiEmploymentType": null,
+    "parseConfidence": 0.65,
+    "warnings": [
+      "no_description",
+      "no_department"
+    ],
+    "isNew": true,
+    "scrapedAt": "2026-10-21T11:47:38+00:00"
+  },
+  {
+    "boardSlug": "anthropic",
+    "jobId": 5400138008,
+    "internalJobId": 4147866008,
+    "title": "Account Executive, Startups",
+    "absoluteUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5400138008",
+    "locationName": "San Francisco, CA | New York City, NY",
+    "workplaceType": "Onsite",
+    "metadata": [
+      {
+        "name": "Location Type",
+        "value": "On-Site",
+        "valueType": "single_select"
+      }
+    ],
+    "departments": [],
+    "offices": [],
+    "requisitionId": "3356",
+    "firstPublished": "2026-08-24T16:19:13-04:00",
+    "updatedAt": "2026-08-24T16:19:13-04:00",
+    "applicationDeadline": null,
+    "language": "en",
+    "companyName": "Anthropic",
+    "contentHtml": null,
+    "aiDisclaimer": null,
+    "aiOptOutUrl": null,
+    "seniority": "mid",
+    "remoteType": "on_site",
+    "aiEmploymentType": null,
+    "parseConfidence": 0.65,
+    "warnings": [
+      "no_description",
+      "no_department"
+    ],
+    "isNew": true,
+    "scrapedAt": "2026-10-21T11:47:38+00:00"
+  },
+  {
+    "boardSlug": "anthropic",
+    "jobId": 5391313008,
+    "internalJobId": 4533054008,
+    "title": "Account Executive, Startups",
+    "absoluteUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391313008",
+    "locationName": "Dublin, IE",
+    "workplaceType": "Onsite",
+    "metadata": [
+      {
+        "name": "Location Type",
+        "value": "On-Site",
+        "valueType": "single_select"
+      }
+    ],
+    "departments": [],
+    "offices": [],
+    "requisitionId": "266750",
+    "firstPublished": "2026-09-07T12:12:06-04:00",
+    "updatedAt": "2026-09-07T12:12:06-04:00",
+    "applicationDeadline": null,
+    "language": "en",
+    "companyName": "Anthropic",
+    "contentHtml": null,
+    "aiDisclaimer": null,
+    "aiOptOutUrl": null,
+    "seniority": "mid",
+    "remoteType": "on_site",
+    "aiEmploymentType": null,
+    "parseConfidence": 0.65,
+    "warnings": [
+      "no_description",
+      "no_department"
+    ],
+    "isNew": true,
+    "scrapedAt": "2026-10-21T11:47:38+00:00"
+  },
+  {
+    "boardSlug": "anthropic",
+    "jobId": 5398438008,
+    "internalJobId": 4536695008,
+    "title": "Activation Manager, Beneficial Deployments",
+    "absoluteUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5398438008",
+    "locationName": "San Francisco, CA | New York City, NY",
+    "workplaceType": "Onsite",
+    "metadata": [
+      {
+        "name": "Location Type",
+        "value": "On-Site",
+        "valueType": "single_select"
+      }
+    ],
+    "departments": [],
+    "offices": [],
+    "requisitionId": "267055",
+    "firstPublished": "2026-09-11T10:35:46-04:00",
+    "updatedAt": "2026-10-13T13:20:04-04:00",
+    "applicationDeadline": null,
+    "language": "en",
+    "companyName": "Anthropic",
+    "contentHtml": null,
+    "aiDisclaimer": null,
+    "aiOptOutUrl": null,
+    "seniority": "mid",
+    "remoteType": "on_site",
+    "aiEmploymentType": null,
+    "parseConfidence": 0.65,
+    "warnings": [
+      "no_description",
+      "no_department"
+    ],
+    "isNew": true,
+    "scrapedAt": "2026-10-21T11:47:38+00:00"
+  },
+  {
+    "boardSlug": "anthropic",
+    "jobId": 5382750008,
+    "internalJobId": 4528815008,
+    "title": "AI Infrastructure Operations, Demand Planning",
+    "absoluteUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5382750008",
+    "locationName": "San Francisco, CA | New York City, NY",
+    "workplaceType": "Onsite",
+    "metadata": [
+      {
+        "name": "Location Type",
+        "value": "On-Site",
+        "valueType": "single_select"
+      }
+    ],
+    "departments": [],
+    "offices": [],
+    "requisitionId": "266482",
+    "firstPublished": "2026-08-11T08:14:01-04:00",
+    "updatedAt": "2026-08-21T12:50:48-04:00",
+    "applicationDeadline": null,
+    "language": "en",
+    "companyName": "Anthropic",
+    "contentHtml": null,
+    "aiDisclaimer": null,
+    "aiOptOutUrl": null,
+    "seniority": "mid",
+    "remoteType": "on_site",
+    "aiEmploymentType": null,
+    "parseConfidence": 0.65,
+    "warnings": [
+      "no_description",
+      "no_department"
+    ],
+    "isNew": true,
+    "scrapedAt": "2026-10-21T11:47:38+00:00"
+  },
+  {
+    "boardSlug": "anthropic",
+    "jobId": 5391151008,
+    "internalJobId": 4532973008,
+    "title": "AI Operations Engineer, Partnerships",
+    "absoluteUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391151008",
+    "locationName": "San Francisco, CA",
+    "workplaceType": "Onsite",
+    "metadata": [
+      {
+        "name": "Location Type",
+        "value": "On-Site",
+        "valueType": "single_select"
+      }
+    ],
+    "departments": [],
+    "offices": [],
+    "requisitionId": "266710",
+    "firstPublished": "2026-08-14T18:07:17-04:00",
+    "updatedAt": "2026-08-24T19:47:05-04:00",
+    "applicationDeadline": null,
+    "language": "en",
+    "companyName": "Anthropic",
+    "contentHtml": null,
+    "aiDisclaimer": null,
+    "aiOptOutUrl": null,
+    "seniority": "mid",
+    "remoteType": "on_site",
+    "aiEmploymentType": null,
+    "parseConfidence": 0.65,
+    "warnings": [
+      "no_description",
+      "no_department"
+    ],
+    "isNew": true,
+    "scrapedAt": "2026-10-21T11:47:38+00:00"
+  },
+  {
+    "boardSlug": "anthropic",
+    "jobId": 5082455008,
+    "internalJobId": 4409308008,
+    "title": "AI Outcomes Manager",
+    "absoluteUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5082455008",
+    "locationName": "New York City, NY; San Francisco, CA; Seattle, WA",
+    "workplaceType": null,
+    "metadata": [
+      {
+        "name": "Location Type",
+        "value": null,
+        "valueType": "single_select"
+      }
+    ],
+    "departments": [],
+    "offices": [],
+    "requisitionId": "260044",
+    "firstPublished": "2026-01-23T17:55:09-05:00",
+    "updatedAt": "2026-10-07T11:53:55-04:00",
+    "applicationDeadline": null,
+    "language": "en",
+    "companyName": "Anthropic",
+    "contentHtml": null,
+    "aiDisclaimer": null,
+    "aiOptOutUrl": null,
+    "seniority": "mid",
+    "remoteType": null,
+    "aiEmploymentType": null,
+    "parseConfidence": 0.6,
+    "warnings": [
+      "no_description",
+      "no_department",
+      "no_workplace"
+    ],
+    "isNew": true,
+    "scrapedAt": "2026-10-21T11:47:38+00:00"
+  }
+]
