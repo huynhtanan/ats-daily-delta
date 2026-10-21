@@ -1,0 +1,382 @@
+{
+  "as_of": "2026-10-21",
+  "total_roles": 10491,
+  "orgs": 75,
+  "rows": [
+    {
+      "slug": "openai",
+      "ats": "Ashby",
+      "open_roles": 808
+    },
+    {
+      "slug": "harvey",
+      "ats": "Ashby",
+      "open_roles": 344
+    },
+    {
+      "slug": "sierra",
+      "ats": "Ashby",
+      "open_roles": 189
+    },
+    {
+      "slug": "ramp",
+      "ats": "Ashby",
+      "open_roles": 169
+    },
+    {
+      "slug": "elevenlabs",
+      "ats": "Ashby",
+      "open_roles": 156
+    },
+    {
+      "slug": "notion",
+      "ats": "Ashby",
+      "open_roles": 135
+    },
+    {
+      "slug": "cursor",
+      "ats": "Ashby",
+      "open_roles": 134
+    },
+    {
+      "slug": "perplexity",
+      "ats": "Ashby",
+      "open_roles": 134
+    },
+    {
+      "slug": "cohere",
+      "ats": "Ashby",
+      "open_roles": 116
+    },
+    {
+      "slug": "cognition",
+      "ats": "Ashby",
+      "open_roles": 105
+    },
+    {
+      "slug": "langchain",
+      "ats": "Ashby",
+      "open_roles": 104
+    },
+    {
+      "slug": "lambda",
+      "ats": "Ashby",
+      "open_roles": 96
+    },
+    {
+      "slug": "deepgram",
+      "ats": "Ashby",
+      "open_roles": 92
+    },
+    {
+      "slug": "fireworks",
+      "ats": "Ashby",
+      "open_roles": 90
+    },
+    {
+      "slug": "vanta",
+      "ats": "Ashby",
+      "open_roles": 85
+    },
+    {
+      "slug": "lovable",
+      "ats": "Ashby",
+      "open_roles": 81
+    },
+    {
+      "slug": "suno",
+      "ats": "Ashby",
+      "open_roles": 69
+    },
+    {
+      "slug": "exa",
+      "ats": "Ashby",
+      "open_roles": 56
+    },
+    {
+      "slug": "supabase",
+      "ats": "Ashby",
+      "open_roles": 55
+    },
+    {
+      "slug": "writer",
+      "ats": "Ashby",
+      "open_roles": 45
+    },
+    {
+      "slug": "modal",
+      "ats": "Ashby",
+      "open_roles": 43
+    },
+    {
+      "slug": "linear",
+      "ats": "Ashby",
+      "open_roles": 29
+    },
+    {
+      "slug": "openrouter",
+      "ats": "Ashby",
+      "open_roles": 28
+    },
+    {
+      "slug": "dust",
+      "ats": "Ashby",
+      "open_roles": 25
+    },
+    {
+      "slug": "granola",
+      "ats": "Ashby",
+      "open_roles": 22
+    },
+    {
+      "slug": "pika",
+      "ats": "Ashby",
+      "open_roles": 15
+    },
+    {
+      "slug": "character",
+      "ats": "Ashby",
+      "open_roles": 13
+    },
+    {
+      "slug": "zapier",
+      "ats": "Ashby",
+      "open_roles": 12
+    },
+    {
+      "slug": "posthog",
+      "ats": "Ashby",
+      "open_roles": 10
+    },
+    {
+      "slug": "browserbase",
+      "ats": "Ashby",
+      "open_roles": 9
+    },
+    {
+      "slug": "circle",
+      "ats": "Ashby",
+      "open_roles": 8
+    },
+    {
+      "slug": "prefect",
+      "ats": "Ashby",
+      "open_roles": 8
+    },
+    {
+      "slug": "pinecone",
+      "ats": "Ashby",
+      "open_roles": 6
+    },
+    {
+      "slug": "0x",
+      "ats": "Ashby",
+      "open_roles": 4
+    },
+    {
+      "slug": "letta",
+      "ats": "Ashby",
+      "open_roles": 4
+    },
+    {
+      "slug": "runway",
+      "ats": "Ashby",
+      "open_roles": 3
+    },
+    {
+      "slug": "inkeep",
+      "ats": "Ashby",
+      "open_roles": 3
+    },
+    {
+      "slug": "poolside",
+      "ats": "Ashby",
+      "open_roles": 2
+    },
+    {
+      "slug": "freed",
+      "ats": "Ashby",
+      "open_roles": 2
+    },
+    {
+      "slug": "databricks",
+      "ats": "Greenhouse",
+      "open_roles": 900
+    },
+    {
+      "slug": "stripe",
+      "ats": "Greenhouse",
+      "open_roles": 732
+    },
+    {
+      "slug": "anthropic",
+      "ats": "Greenhouse",
+      "open_roles": 674
+    },
+    {
+      "slug": "mongodb",
+      "ats": "Greenhouse",
+      "open_roles": 396
+    },
+    {
+      "slug": "elastic",
+      "ats": "Greenhouse",
+      "open_roles": 371
+    },
+    {
+      "slug": "samsara",
+      "ats": "Greenhouse",
+      "open_roles": 285
+    },
+    {
+      "slug": "brex",
+      "ats": "Greenhouse",
+      "open_roles": 263
+    },
+    {
+      "slug": "roblox",
+      "ats": "Greenhouse",
+      "open_roles": 262
+    },
+    {
+      "slug": "gitlab",
+      "ats": "Greenhouse",
+      "open_roles": 232
+    },
+    {
+      "slug": "coinbase",
+      "ats": "Greenhouse",
+      "open_roles": 230
+    },
+    {
+      "slug": "affirm",
+      "ats": "Greenhouse",
+      "open_roles": 219
+    },
+    {
+      "slug": "block",
+      "ats": "Greenhouse",
+      "open_roles": 210
+    },
+    {
+      "slug": "airbnb",
+      "ats": "Greenhouse",
+      "open_roles": 182
+    },
+    {
+      "slug": "lyft",
+      "ats": "Greenhouse",
+      "open_roles": 180
+    },
+    {
+      "slug": "klaviyo",
+      "ats": "Greenhouse",
+      "open_roles": 165
+    },
+    {
+      "slug": "pinterest",
+      "ats": "Greenhouse",
+      "open_roles": 157
+    },
+    {
+      "slug": "robinhood",
+      "ats": "Greenhouse",
+      "open_roles": 156
+    },
+    {
+      "slug": "reddit",
+      "ats": "Greenhouse",
+      "open_roles": 155
+    },
+    {
+      "slug": "figma",
+      "ats": "Greenhouse",
+      "open_roles": 141
+    },
+    {
+      "slug": "grafanalabs",
+      "ats": "Greenhouse",
+      "open_roles": 133
+    },
+    {
+      "slug": "twilio",
+      "ats": "Greenhouse",
+      "open_roles": 132
+    },
+    {
+      "slug": "instacart",
+      "ats": "Greenhouse",
+      "open_roles": 125
+    },
+    {
+      "slug": "intercom",
+      "ats": "Greenhouse",
+      "open_roles": 107
+    },
+    {
+      "slug": "asana",
+      "ats": "Greenhouse",
+      "open_roles": 104
+    },
+    {
+      "slug": "gusto",
+      "ats": "Greenhouse",
+      "open_roles": 100
+    },
+    {
+      "slug": "faire",
+      "ats": "Greenhouse",
+      "open_roles": 75
+    },
+    {
+      "slug": "mercury",
+      "ats": "Greenhouse",
+      "open_roles": 74
+    },
+    {
+      "slug": "chime",
+      "ats": "Greenhouse",
+      "open_roles": 70
+    },
+    {
+      "slug": "duolingo",
+      "ats": "Greenhouse",
+      "open_roles": 62
+    },
+    {
+      "slug": "newrelic",
+      "ats": "Greenhouse",
+      "open_roles": 58
+    },
+    {
+      "slug": "twitch",
+      "ats": "Greenhouse",
+      "open_roles": 58
+    },
+    {
+      "slug": "mixpanel",
+      "ats": "Greenhouse",
+      "open_roles": 46
+    },
+    {
+      "slug": "discord",
+      "ats": "Greenhouse",
+      "open_roles": 45
+    },
+    {
+      "slug": "everlaw",
+      "ats": "Greenhouse",
+      "open_roles": 36
+    },
+    {
+      "slug": "squarespace",
+      "ats": "Greenhouse",
+      "open_roles": 26
+    },
+    {
+      "slug": "dropbox",
+      "ats": "Greenhouse",
+      "open_roles": 21
+    }
+  ]
+}
