@@ -1,0 +1,25 @@
+# Sample output
+
+Snapshots of real data returned by the two actors on **2026-10-21**, so you can see the schema without running anything.
+
+## greenhouse_sample.json
+
+10 rows from `zet46/greenhouse-jobs-scraper` with input:
+
+```json
+{"boardSlugs": ["anthropic", "airbnb", "stripe", "figma"], "mode": "jobs", "maxJobsPerBoard": 60}
+```
+
+Includes `seniority` / `remoteType` / `aiEmploymentType` classification, `parseConfidence`, and `warnings[]`. Anthropic rows carry `requisitionId` (e.g. `REQ-26-1145-01`), Airbnb/Figma rows carry `departments[]` populated.
+
+## ashby_sample.json
+
+10 rows from `zet46/ashby-jobs-scraper` — 5 OpenAI roles + 5 Ramp roles — all with structured salary data (`salaryMin`, `salaryMax`, `salaryCurrency`, `salaryInterval`, plus the full `compensation.compensationTiers[]` struct for anything with equity/bonus/commission).
+
+Description bodies (`descriptionPlain`, `descriptionHtml`) are stripped from the samples to keep the files small — they are present on every row in a real run.
+
+## Caveats
+
+- Open-role counts and compensation bands change daily. These files are a **snapshot**, not a live feed.
+- Compensation on Ashby only shows up where the employer opted in. US pay-transparency jurisdictions (CA / CO / NY / WA / IL / MD / ...) force disclosure, so you'll see ~80–100 % salary coverage on US-headquartered companies and 0–20 % on EU-only companies.
+- Greenhouse `departments[]` and `offices[]` are often empty — the actor sets `warnings: ["no_department"]` so you can skip rows that don't meet your filter.
