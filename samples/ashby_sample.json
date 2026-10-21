@@ -1,0 +1,1220 @@
+[
+  {
+    "boardSlug": "openai",
+    "jobId": "8fb1615c-34bf-47c4-a1d1-b7b2f836bbd3",
+    "title": "Technical Program Manager, Compute Infrastructure",
+    "jobUrl": "https://jobs.ashbyhq.com/openai/8fb1615c-34bf-47c4-a1d1-b7b2f836bbd3",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/8fb1615c-34bf-47c4-a1d1-b7b2f836bbd3/application",
+    "location": "San Francisco",
+    "secondaryLocations": [],
+    "country": "United States",
+    "region": "California",
+    "locality": "San Francisco",
+    "workplaceType": null,
+    "workplaceTypeRaw": null,
+    "isRemote": null,
+    "employmentType": "FullTime",
+    "department": "Technical Program Management",
+    "team": "Technical Program Management",
+    "isListed": true,
+    "publishedAt": "2026-03-12T16:38:15.322+00:00",
+    "salaryMin": 257000,
+    "salaryMax": 335000,
+    "salaryCurrency": "USD",
+    "salaryInterval": "1 YEAR",
+    "equitySummary": "Offers Equity",
+    "bonusSummary": null,
+    "commissionSummary": null,
+    "compensationSummary": "$257K – $335K • Offers Equity",
+    "shouldDisplayCompensation": true,
+    "compensation": {
+      "compensationTierSummary": "$257K – $335K • Offers Equity",
+      "scrapeableCompensationSalarySummary": "$257K - $335K",
+      "compensationTiers": [
+        {
+          "id": "33e464a3-4ff9-40a4-bbd6-6dcb65d23c43",
+          "tierSummary": "$257K – $335K • Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "daa3a561-a504-4bd5-99ac-3ed7fd060cf8",
+              "summary": "$257K – $335K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 257000,
+              "maxValue": 335000
+            },
+            {
+              "id": "ae7ec4d0-7ec6-4186-b4c2-e4b6753df9e7",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 257000,
+          "maxValue": 335000
+        },
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "seniority": "mid",
+    "remoteType": null,
+    "aiEmploymentType": "full_time",
+    "parseConfidence": 0.95,
+    "warnings": [
+      "no_workplace"
+    ],
+    "scrapedAt": "2026-10-21T12:04:51+00:00"
+  },
+  {
+    "boardSlug": "openai",
+    "jobId": "3c67f712-697d-48d8-b05c-01be896e61da",
+    "title": "Software Engineer, Scaled Abuse",
+    "jobUrl": "https://jobs.ashbyhq.com/openai/3c67f712-697d-48d8-b05c-01be896e61da",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/3c67f712-697d-48d8-b05c-01be896e61da/application",
+    "location": "San Francisco",
+    "secondaryLocations": [],
+    "country": "United States",
+    "region": "California",
+    "locality": "San Francisco",
+    "workplaceType": null,
+    "workplaceTypeRaw": null,
+    "isRemote": null,
+    "employmentType": "FullTime",
+    "department": "Applied AI",
+    "team": "Applied AI Engineering",
+    "isListed": true,
+    "publishedAt": "2026-06-08T16:15:58.343+00:00",
+    "salaryMin": 266000,
+    "salaryMax": 445000,
+    "salaryCurrency": "USD",
+    "salaryInterval": "1 YEAR",
+    "equitySummary": "Offers Equity",
+    "bonusSummary": null,
+    "commissionSummary": null,
+    "compensationSummary": "$266K – $445K • Offers Equity",
+    "shouldDisplayCompensation": true,
+    "compensation": {
+      "compensationTierSummary": "$266K – $445K • Offers Equity",
+      "scrapeableCompensationSalarySummary": "$266K - $445K",
+      "compensationTiers": [
+        {
+          "id": "62bccc91-658d-42ba-a8b7-4555a960d645",
+          "tierSummary": "$266K – $445K • Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "198987aa-85a4-4dcd-bd54-cc8945b37d93",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "ca2019c5-3d11-481a-85ff-3b1c677893bd",
+              "summary": "$266K – $445K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 266000,
+              "maxValue": 445000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 266000,
+          "maxValue": 445000
+        }
+      ]
+    },
+    "seniority": "mid",
+    "remoteType": null,
+    "aiEmploymentType": "full_time",
+    "parseConfidence": 0.95,
+    "warnings": [
+      "no_workplace"
+    ],
+    "scrapedAt": "2026-10-21T12:04:51+00:00"
+  },
+  {
+    "boardSlug": "openai",
+    "jobId": "d4dcd344-40cf-44d6-a7dd-172118eb0842",
+    "title": "Software Engineer, Observability",
+    "jobUrl": "https://jobs.ashbyhq.com/openai/d4dcd344-40cf-44d6-a7dd-172118eb0842",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/d4dcd344-40cf-44d6-a7dd-172118eb0842/application",
+    "location": "San Francisco",
+    "secondaryLocations": [
+      {
+        "location": "New York City",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "New York",
+            "addressCountry": "United States",
+            "addressLocality": "New York"
+          }
+        }
+      },
+      {
+        "location": "Mountain View",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "Mountain View"
+          }
+        }
+      }
+    ],
+    "country": "United States",
+    "region": "California",
+    "locality": "San Francisco",
+    "workplaceType": null,
+    "workplaceTypeRaw": null,
+    "isRemote": null,
+    "employmentType": "FullTime",
+    "department": "Applied AI",
+    "team": "Applied AI Infrastructure",
+    "isListed": true,
+    "publishedAt": "2026-02-19T20:41:43.290+00:00",
+    "salaryMin": 266000,
+    "salaryMax": 445000,
+    "salaryCurrency": "USD",
+    "salaryInterval": "1 YEAR",
+    "equitySummary": "Offers Equity",
+    "bonusSummary": null,
+    "commissionSummary": null,
+    "compensationSummary": "$266K – $445K • Offers Equity",
+    "shouldDisplayCompensation": true,
+    "compensation": {
+      "compensationTierSummary": "$266K – $445K • Offers Equity",
+      "scrapeableCompensationSalarySummary": "$266K - $445K",
+      "compensationTiers": [
+        {
+          "id": "9ae80fd7-0bf3-4705-a5d6-3d3adb749fb3",
+          "tierSummary": "$266K – $445K • Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "bbd8f493-810e-42b2-b017-b14885c2c946",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "7b370333-7849-472f-a74c-4ada552d0d1d",
+              "summary": "$266K – $445K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 266000,
+              "maxValue": 445000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 266000,
+          "maxValue": 445000
+        }
+      ]
+    },
+    "seniority": "mid",
+    "remoteType": null,
+    "aiEmploymentType": "full_time",
+    "parseConfidence": 0.95,
+    "warnings": [
+      "no_workplace"
+    ],
+    "scrapedAt": "2026-10-21T12:04:51+00:00"
+  },
+  {
+    "boardSlug": "openai",
+    "jobId": "c414f15f-60c4-40b5-a896-d2ad6c7f4415",
+    "title": "Senior Technical Program Manager - Security",
+    "jobUrl": "https://jobs.ashbyhq.com/openai/c414f15f-60c4-40b5-a896-d2ad6c7f4415",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/c414f15f-60c4-40b5-a896-d2ad6c7f4415/application",
+    "location": "US - Remote",
+    "secondaryLocations": [
+      {
+        "location": "New York City",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "New York",
+            "addressCountry": "United States",
+            "addressLocality": "New York"
+          }
+        }
+      },
+      {
+        "location": "Seattle",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Washington",
+            "addressCountry": "United States",
+            "addressLocality": "Seattle"
+          }
+        }
+      },
+      {
+        "location": "Washington, DC",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "District of Columbia",
+            "addressCountry": "United States",
+            "addressLocality": "Washington"
+          }
+        }
+      },
+      {
+        "location": "San Francisco",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California",
+            "addressCountry": "United States",
+            "addressLocality": "San Francisco"
+          }
+        }
+      }
+    ],
+    "country": "United States",
+    "region": null,
+    "locality": null,
+    "workplaceType": "Remote",
+    "workplaceTypeRaw": "Remote",
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "department": "Security",
+    "team": "Security",
+    "isListed": true,
+    "publishedAt": "2026-06-25T17:30:54.205+00:00",
+    "salaryMin": 165400,
+    "salaryMax": 285000,
+    "salaryCurrency": "USD",
+    "salaryInterval": "1 YEAR",
+    "equitySummary": "Offers Equity",
+    "bonusSummary": null,
+    "commissionSummary": null,
+    "compensationSummary": "$165.4K – $285K • Offers Equity • Multiple Ranges",
+    "shouldDisplayCompensation": true,
+    "compensation": {
+      "compensationTierSummary": "$165.4K – $285K • Offers Equity • Multiple Ranges",
+      "scrapeableCompensationSalarySummary": "$165.4K - $285K",
+      "compensationTiers": [
+        {
+          "id": "d3899e1f-0c22-4daa-86f9-4f1d9fc0c032",
+          "tierSummary": "$207K – $285K • Offers Equity",
+          "title": "San Francisco, Seattle or New York",
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "8b7496ef-c885-44be-894b-ae98047dff98",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "bf8e2028-26db-4c3e-b6cd-1831f91effb5",
+              "summary": "$207K – $285K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 207000,
+              "maxValue": 285000
+            }
+          ]
+        },
+        {
+          "id": "d44602e0-d1e4-4d2e-807f-1da70c1a99f2",
+          "tierSummary": "$186.3K – $256.5K • Offers Equity",
+          "title": "Zone A",
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "123a301d-8c65-45e3-9193-9bcda07f7fc8",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "22e704e2-45ad-4148-a7dd-c9cbe37292db",
+              "summary": "$186.3K – $256.5K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 186300,
+              "maxValue": 256500
+            }
+          ]
+        },
+        {
+          "id": "a071c99d-1ec8-4b84-8376-615609c7e3bc",
+          "tierSummary": "$165.4K – $228K • Offers Equity",
+          "title": "Zone B",
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "99c8d552-5386-42fa-bc6d-4974a02c4368",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "7f4b6a00-6aed-4754-a108-32965d99a494",
+              "summary": "$165.4K – $228K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 165400,
+              "maxValue": 228000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "minValue": null,
+          "maxValue": null,
+          "interval": "1 YEAR"
+        },
+        {
+          "minValue": 165400,
+          "maxValue": 285000,
+          "currencyCode": "USD",
+          "interval": "1 YEAR",
+          "compensationType": "Salary"
+        }
+      ]
+    },
+    "seniority": "senior",
+    "remoteType": "remote",
+    "aiEmploymentType": "full_time",
+    "parseConfidence": 1,
+    "warnings": [],
+    "scrapedAt": "2026-10-21T12:04:51+00:00"
+  },
+  {
+    "boardSlug": "openai",
+    "jobId": "1e4e9985-babf-4bd9-8fe8-a2016250780d",
+    "title": "Software Engineer, Security Observability",
+    "jobUrl": "https://jobs.ashbyhq.com/openai/1e4e9985-babf-4bd9-8fe8-a2016250780d",
+    "applyUrl": "https://jobs.ashbyhq.com/openai/1e4e9985-babf-4bd9-8fe8-a2016250780d/application",
+    "location": "San Francisco",
+    "secondaryLocations": [
+      {
+        "location": "New York City",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "New York",
+            "addressCountry": "United States",
+            "addressLocality": "New York"
+          }
+        }
+      },
+      {
+        "location": "Seattle",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Washington",
+            "addressCountry": "United States",
+            "addressLocality": "Seattle"
+          }
+        }
+      },
+      {
+        "location": "US - Remote",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "United States"
+          }
+        }
+      }
+    ],
+    "country": "United States",
+    "region": "California",
+    "locality": "San Francisco",
+    "workplaceType": null,
+    "workplaceTypeRaw": null,
+    "isRemote": null,
+    "employmentType": "FullTime",
+    "department": "Security",
+    "team": "Security",
+    "isListed": true,
+    "publishedAt": "2026-04-15T16:54:42.457+00:00",
+    "salaryMin": 293000,
+    "salaryMax": 325000,
+    "salaryCurrency": "USD",
+    "salaryInterval": "1 YEAR",
+    "equitySummary": "Offers Equity",
+    "bonusSummary": null,
+    "commissionSummary": null,
+    "compensationSummary": "$293K – $325K • Offers Equity",
+    "shouldDisplayCompensation": true,
+    "compensation": {
+      "compensationTierSummary": "$293K – $325K • Offers Equity",
+      "scrapeableCompensationSalarySummary": "$293K - $325K",
+      "compensationTiers": [
+        {
+          "id": "c265705d-ba5b-4663-bf6c-6f64cd574b88",
+          "tierSummary": "$293K – $325K • Offers Equity",
+          "title": null,
+          "additionalInformation": null,
+          "components": [
+            {
+              "id": "82a1b2b8-1c1a-46c4-b5a4-95c64417af17",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "52caee85-9f0f-46c8-b2ce-bba35f53ce14",
+              "summary": "$293K – $325K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 293000,
+              "maxValue": 325000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 293000,
+          "maxValue": 325000
+        }
+      ]
+    },
+    "seniority": "mid",
+    "remoteType": null,
+    "aiEmploymentType": "full_time",
+    "parseConfidence": 0.95,
+    "warnings": [
+      "no_workplace"
+    ],
+    "scrapedAt": "2026-10-21T12:04:51+00:00"
+  },
+  {
+    "boardSlug": "ramp",
+    "jobId": "b55447c0-4adc-42eb-9ca2-f88fd44e0e5b",
+    "title": "Partner Development Representative | Accounting ",
+    "jobUrl": "https://jobs.ashbyhq.com/ramp/b55447c0-4adc-42eb-9ca2-f88fd44e0e5b",
+    "applyUrl": "https://jobs.ashbyhq.com/ramp/b55447c0-4adc-42eb-9ca2-f88fd44e0e5b/application",
+    "location": "New York, NY (HQ)",
+    "secondaryLocations": [
+      {
+        "location": "Remote (US)",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "United States"
+          }
+        }
+      }
+    ],
+    "country": "USA",
+    "region": "NY",
+    "locality": "New York City",
+    "workplaceType": "Hybrid",
+    "workplaceTypeRaw": "Hybrid",
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "department": "Sales",
+    "team": "Channel Sales",
+    "isListed": true,
+    "publishedAt": "2026-09-30T22:45:28.341+00:00",
+    "salaryMin": 110000,
+    "salaryMax": 120000,
+    "salaryCurrency": "USD",
+    "salaryInterval": "1 YEAR",
+    "equitySummary": "Offers Equity",
+    "bonusSummary": null,
+    "commissionSummary": "Offers Commission",
+    "compensationSummary": "$110K – $120K • Offers Equity • Offers Commission • Total OTE with 70/30 split",
+    "shouldDisplayCompensation": true,
+    "compensation": {
+      "compensationTierSummary": "$110K – $120K • Offers Equity • Offers Commission • Total OTE with 70/30 split",
+      "scrapeableCompensationSalarySummary": "$110K - $120K",
+      "compensationTiers": [
+        {
+          "id": "bffa61b5-4dd5-4a37-98f5-fc6a56bdbb1e",
+          "tierSummary": "$110K – $120K • Offers Equity • Offers Commission • Total OTE with 70/30 split",
+          "title": null,
+          "additionalInformation": "Total OTE with 70/30 split",
+          "components": [
+            {
+              "id": "b536990e-72a3-49b5-8b00-e1ce42417d3a",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "91b97903-f009-496d-9649-8e26e9b31d8d",
+              "summary": "$110K – $120K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 110000,
+              "maxValue": 120000
+            },
+            {
+              "id": "ec356f5e-5dea-42be-baf8-cfc037429e07",
+              "summary": "Offers Commission",
+              "compensationType": "Commission",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 110000,
+          "maxValue": 120000
+        },
+        {
+          "compensationType": "Commission",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        }
+      ]
+    },
+    "scrapedAt": "2026-10-15T21:10:32+00:00"
+  },
+  {
+    "boardSlug": "ramp",
+    "jobId": "60ed4fac-3833-4495-9b0f-75e6dfe4b36c",
+    "title": "Senior Manager, Account Executive | Mid-Market",
+    "jobUrl": "https://jobs.ashbyhq.com/ramp/60ed4fac-3833-4495-9b0f-75e6dfe4b36c",
+    "applyUrl": "https://jobs.ashbyhq.com/ramp/60ed4fac-3833-4495-9b0f-75e6dfe4b36c/application",
+    "location": "New York, NY (HQ)",
+    "secondaryLocations": [
+      {
+        "location": "San Francisco, CA",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California ",
+            "addressCountry": "USA",
+            "addressLocality": "San Fransisco"
+          }
+        }
+      }
+    ],
+    "country": "USA",
+    "region": "NY",
+    "locality": "New York City",
+    "workplaceType": "Hybrid",
+    "workplaceTypeRaw": "Hybrid",
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "department": "Sales",
+    "team": "Account Executive",
+    "isListed": true,
+    "publishedAt": "2026-09-10T00:03:38.552+00:00",
+    "salaryMin": 360000,
+    "salaryMax": 400000,
+    "salaryCurrency": "USD",
+    "salaryInterval": "1 YEAR",
+    "equitySummary": "Offers Equity",
+    "bonusSummary": "Offers Bonus",
+    "commissionSummary": "Offers Commission",
+    "compensationSummary": "$360K – $400K • Offers Equity • Offers Commission • Offers Bonus • 45/55 split",
+    "shouldDisplayCompensation": true,
+    "compensation": {
+      "compensationTierSummary": "$360K – $400K • Offers Equity • Offers Commission • Offers Bonus • 45/55 split",
+      "scrapeableCompensationSalarySummary": "$360K - $400K",
+      "compensationTiers": [
+        {
+          "id": "847cf3ba-41c2-4331-9f6c-7889019f8981",
+          "tierSummary": "Target Base Salary $360K – $400K • Offers Equity • Offers Commission • Offers Bonus • 45/55 split",
+          "title": "SF/NY",
+          "additionalInformation": "45/55 split",
+          "components": [
+            {
+              "id": "edfbbb4c-4dbf-4359-b4fd-83a91d707833",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "e3f7a8d9-8ef1-4fb0-a1d7-e889c578fefb",
+              "summary": "Offers Commission",
+              "compensationType": "Commission",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "6f5bc5b2-4d66-450e-9b47-8065bb21a3c9",
+              "summary": "Offers Bonus",
+              "compensationType": "Bonus",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "f924711e-093a-48fd-9a4d-368ede8eb029",
+              "summary": "Target Base Salary $360K – $400K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 360000,
+              "maxValue": 400000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Commission",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Bonus",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 360000,
+          "maxValue": 400000
+        }
+      ]
+    },
+    "scrapedAt": "2026-10-15T21:10:33+00:00"
+  },
+  {
+    "boardSlug": "ramp",
+    "jobId": "fc971889-db1d-4a20-a25e-f282f9296936",
+    "title": "University Grad | Customer Experience Associate",
+    "jobUrl": "https://jobs.ashbyhq.com/ramp/fc971889-db1d-4a20-a25e-f282f9296936",
+    "applyUrl": "https://jobs.ashbyhq.com/ramp/fc971889-db1d-4a20-a25e-f282f9296936/application",
+    "location": "New York, NY (HQ)",
+    "secondaryLocations": [
+      {
+        "location": "San Francisco, CA",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California ",
+            "addressCountry": "USA",
+            "addressLocality": "San Fransisco"
+          }
+        }
+      },
+      {
+        "location": "Remote (US)",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "United States"
+          }
+        }
+      }
+    ],
+    "country": "USA",
+    "region": "NY",
+    "locality": "New York City",
+    "workplaceType": "Hybrid",
+    "workplaceTypeRaw": "Hybrid",
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "department": "Customer Experience",
+    "team": "Customer Experience",
+    "isListed": true,
+    "publishedAt": "2026-09-09T12:19:47.141+00:00",
+    "salaryMin": 60000,
+    "salaryMax": 70000,
+    "salaryCurrency": "USD",
+    "salaryInterval": "1 YEAR",
+    "equitySummary": "Offers Equity",
+    "bonusSummary": null,
+    "commissionSummary": null,
+    "compensationSummary": "$60K – $70K • Offers Equity • This role will be paid hourly with a minimum hourly expectation.",
+    "shouldDisplayCompensation": true,
+    "compensation": {
+      "compensationTierSummary": "$60K – $70K • Offers Equity • This role will be paid hourly with a minimum hourly expectation.",
+      "scrapeableCompensationSalarySummary": "$60K - $70K",
+      "compensationTiers": [
+        {
+          "id": "369b0676-ad89-479e-8140-d728ccbc4c66",
+          "tierSummary": "$60K – $70K • Offers Equity • This role will be paid hourly with a minimum hourly expectation.",
+          "title": null,
+          "additionalInformation": "This role will be paid hourly with a minimum hourly expectation.",
+          "components": [
+            {
+              "id": "befac08c-ec9f-49a8-a25c-211bab30581b",
+              "summary": "Offers Equity",
+              "compensationType": "EquityPercentage",
+              "interval": "NONE",
+              "currencyCode": null,
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "e793ae09-1aeb-4701-bff2-e2b4788924bf",
+              "summary": "$60K – $70K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 60000,
+              "maxValue": 70000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityPercentage",
+          "interval": "NONE",
+          "currencyCode": null,
+          "minValue": null,
+          "maxValue": null
+        },
+        {
+          "compensationType": "Salary",
+          "interval": "1 YEAR",
+          "currencyCode": "USD",
+          "minValue": 60000,
+          "maxValue": 70000
+        }
+      ]
+    },
+    "scrapedAt": "2026-10-15T21:10:33+00:00"
+  },
+  {
+    "boardSlug": "ramp",
+    "jobId": "d84bbf19-572a-499c-9c87-0c154ce85caf",
+    "title": "Account Manager | Mid-Market",
+    "jobUrl": "https://jobs.ashbyhq.com/ramp/d84bbf19-572a-499c-9c87-0c154ce85caf",
+    "applyUrl": "https://jobs.ashbyhq.com/ramp/d84bbf19-572a-499c-9c87-0c154ce85caf/application",
+    "location": "New York, NY (HQ)",
+    "secondaryLocations": [
+      {
+        "location": "San Francisco, CA",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California ",
+            "addressCountry": "USA",
+            "addressLocality": "San Fransisco"
+          }
+        }
+      },
+      {
+        "location": "Remote (US)",
+        "address": {
+          "postalAddress": {
+            "addressCountry": "United States"
+          }
+        }
+      }
+    ],
+    "country": "USA",
+    "region": "NY",
+    "locality": "New York City",
+    "workplaceType": "Remote",
+    "workplaceTypeRaw": "Remote",
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "department": "Sales",
+    "team": "Account Manager",
+    "isListed": true,
+    "publishedAt": "2026-09-23T16:15:40.412+00:00",
+    "salaryMin": 190000,
+    "salaryMax": 330000,
+    "salaryCurrency": "USD",
+    "salaryInterval": "1 YEAR",
+    "equitySummary": "Offers Equity",
+    "bonusSummary": null,
+    "commissionSummary": null,
+    "compensationSummary": "$190K – $330K • Offers Equity • Multiple Ranges",
+    "shouldDisplayCompensation": true,
+    "compensation": {
+      "compensationTierSummary": "$190K – $330K • Offers Equity • Multiple Ranges",
+      "scrapeableCompensationSalarySummary": "$190K - $330K",
+      "compensationTiers": [
+        {
+          "id": "20889b3a-dfec-454e-9928-12b5de126b87",
+          "tierSummary": "OTE $200K – $260K • Offers Equity • The OTE range above has a 60/40 split",
+          "title": "NYC / SF",
+          "additionalInformation": "The OTE range above has a 60/40 split",
+          "components": [
+            {
+              "id": "42ba253e-ef4d-4819-89f4-762edfeccb79",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "34639ea5-6015-4c6b-a438-7c7b49bc11a6",
+              "summary": "OTE $200K – $260K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 200000,
+              "maxValue": 260000
+            }
+          ]
+        },
+        {
+          "id": "67289cf1-ebc9-4685-91f1-ad0678b69d0c",
+          "tierSummary": "OTE $190K – $230K • Offers Equity • The OTE range above has a 60/40 split",
+          "title": "US Remote",
+          "additionalInformation": "The OTE range above has a 60/40 split",
+          "components": [
+            {
+              "id": "67889179-3aa3-44dc-8178-ee6054aac616",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "63118d18-3f25-4a90-a6c4-9b7352d9cd5c",
+              "summary": "OTE $190K – $230K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 190000,
+              "maxValue": 230000
+            }
+          ]
+        },
+        {
+          "id": "b051fef1-b814-4676-8768-e47ed3648aa8",
+          "tierSummary": "OTE $275K – $330K • Offers Equity • The OTE range above has a 60/40 split",
+          "title": "Sr. Account Manager (NYC / SF)",
+          "additionalInformation": "The OTE range above has a 60/40 split",
+          "components": [
+            {
+              "id": "f2170467-0de4-47ee-9761-449674583e89",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "69745264-aaf5-4945-882c-5c47b31de004",
+              "summary": "OTE $275K – $330K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 275000,
+              "maxValue": 330000
+            }
+          ]
+        },
+        {
+          "id": "d53fd644-590d-46dd-8bf6-0a569555cb38",
+          "tierSummary": "OTE $240K – $300K • Offers Equity • The OTE range above has a 60/40 split",
+          "title": "Sr. Account Manager (US Remote) ",
+          "additionalInformation": "The OTE range above has a 60/40 split",
+          "components": [
+            {
+              "id": "e522345a-7fd1-4853-8fbd-a9d82ee69a3c",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "e23251cb-37cf-4f5b-bbec-41b2e06677b3",
+              "summary": "OTE $240K – $300K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 240000,
+              "maxValue": 300000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "minValue": null,
+          "maxValue": null,
+          "interval": "1 YEAR"
+        },
+        {
+          "minValue": 190000,
+          "maxValue": 330000,
+          "currencyCode": "USD",
+          "interval": "1 YEAR",
+          "compensationType": "Salary"
+        }
+      ]
+    },
+    "scrapedAt": "2026-10-15T21:10:33+00:00"
+  },
+  {
+    "boardSlug": "ramp",
+    "jobId": "b4908db8-ac21-4c7f-b544-a66fffbfb97e",
+    "title": "Senior Channel Partner Manager, Global Advisory / GSI",
+    "jobUrl": "https://jobs.ashbyhq.com/ramp/b4908db8-ac21-4c7f-b544-a66fffbfb97e",
+    "applyUrl": "https://jobs.ashbyhq.com/ramp/b4908db8-ac21-4c7f-b544-a66fffbfb97e/application",
+    "location": "New York, NY (HQ)",
+    "secondaryLocations": [
+      {
+        "location": "San Francisco, CA",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "California ",
+            "addressCountry": "USA",
+            "addressLocality": "San Fransisco"
+          }
+        }
+      },
+      {
+        "location": "Chicago, IL",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Illinois",
+            "addressCountry": "United States",
+            "addressLocality": "Chicago"
+          }
+        }
+      },
+      {
+        "location": "Miami, FL",
+        "address": {
+          "postalAddress": {
+            "addressRegion": "Florida",
+            "addressCountry": "USA",
+            "addressLocality": "Miami"
+          }
+        }
+      }
+    ],
+    "country": "USA",
+    "region": "NY",
+    "locality": "New York City",
+    "workplaceType": "Hybrid",
+    "workplaceTypeRaw": "Hybrid",
+    "isRemote": true,
+    "employmentType": "FullTime",
+    "department": "Sales",
+    "team": "Channel Sales",
+    "isListed": true,
+    "publishedAt": "2026-09-25T17:54:58.408+00:00",
+    "salaryMin": 194000,
+    "salaryMax": 297000,
+    "salaryCurrency": "USD",
+    "salaryInterval": "1 YEAR",
+    "equitySummary": "Offers Equity",
+    "bonusSummary": null,
+    "commissionSummary": "Offers Commission",
+    "compensationSummary": "$194K – $297K • Offers Equity • Offers Commission • Multiple Ranges",
+    "shouldDisplayCompensation": true,
+    "compensation": {
+      "compensationTierSummary": "$194K – $297K • Offers Equity • Offers Commission • Multiple Ranges",
+      "scrapeableCompensationSalarySummary": "$194K - $297K",
+      "compensationTiers": [
+        {
+          "id": "e5822612-8292-43c3-b9b3-ce1163eea67d",
+          "tierSummary": "OTE $216K – $297K • Offers Equity • Offers Commission • 80/20 split between base and variable",
+          "title": "NYC/SF",
+          "additionalInformation": "80/20 split between base and variable",
+          "components": [
+            {
+              "id": "3efea2a0-8bcb-4a99-8ca1-fc7cb52228e2",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "146a3230-c3ca-48f1-b8b1-b5a10e991aa1",
+              "summary": "Offers Commission",
+              "compensationType": "Commission",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "5408c26c-4b74-4401-bc2f-cbf38b08819a",
+              "summary": "OTE $216K – $297K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 216000,
+              "maxValue": 297000
+            }
+          ]
+        },
+        {
+          "id": "b49c33ed-7411-465e-bf01-ec8da518d3fa",
+          "tierSummary": "OTE $194K – $267K • Offers Equity • Offers Commission • 80/20 split between base and variable",
+          "title": "Nationwide",
+          "additionalInformation": "80/20 split between base and variable",
+          "components": [
+            {
+              "id": "3b56682d-af68-42df-8b97-b4f22ee182ef",
+              "summary": "Offers Equity",
+              "compensationType": "EquityCashValue",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "0bc90a6b-5ff3-4c3d-901f-9be2af01526f",
+              "summary": "Offers Commission",
+              "compensationType": "Commission",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": null,
+              "maxValue": null
+            },
+            {
+              "id": "3e1b9afb-af2f-4399-9731-9300542fa8a9",
+              "summary": "OTE $194K – $267K",
+              "compensationType": "Salary",
+              "interval": "1 YEAR",
+              "currencyCode": "USD",
+              "minValue": 194000,
+              "maxValue": 267000
+            }
+          ]
+        }
+      ],
+      "summaryComponents": [
+        {
+          "compensationType": "EquityCashValue",
+          "minValue": null,
+          "maxValue": null,
+          "interval": "1 YEAR"
+        },
+        {
+          "compensationType": "Commission",
+          "minValue": null,
+          "maxValue": null,
+          "interval": "1 YEAR"
+        },
+        {
+          "minValue": 194000,
+          "maxValue": 297000,
+          "currencyCode": "USD",
+          "interval": "1 YEAR",
+          "compensationType": "Salary"
+        }
+      ]
+    },
+    "scrapedAt": "2026-10-15T21:10:33+00:00"
+  }
+]
