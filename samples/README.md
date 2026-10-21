@@ -45,7 +45,7 @@ Known-good Greenhouse and Ashby board slugs, verified live on **2026-10-21**: 75
 - CSV columns: `slug, ats, open_roles, api_url`.
 - JSON wraps the same rows plus a top-level `as_of` + `total_roles` + `orgs` summary.
 
-Use these as a starting board list for the  +  scripts, or as the source for a nightly multi-company tracker. The slugs cluster around three groups: AI labs on Ashby (OpenAI, Anthropic, Cohere, Mistral-ish, Cursor, Perplexity, ElevenLabs, Harvey, Sierra, Cognition, LangChain, Writer, Lambda, Fireworks, Pinecone, Deepgram, OpenRouter...), big public tech on Greenhouse (Databricks, Stripe, Anthropic, Elastic, MongoDB, Robinhood, Coinbase, GitLab, Pinterest, Lyft, Intercom, Asana, Mercury, Mixpanel, Everlaw...), and dev-tool / fintech on both.
+Use these as a starting board list for the `python/greenhouse_delta.py` + `python/ashby_delta.py` scripts (and the Slack watcher), or as the input for a nightly multi-company tracker. The slugs cluster around three groups: **AI labs on Ashby** (OpenAI, Cohere, Cursor, Perplexity, ElevenLabs, Harvey, Sierra, Cognition, LangChain, Writer, Lambda, Fireworks, Pinecone, Deepgram, OpenRouter, Suno, Pika, Character, Runway, Exa, Browserbase, Dust, Granola, Lovable...), **big public tech on Greenhouse** (Databricks, Stripe, Anthropic, Elastic, MongoDB, Robinhood, Coinbase, GitLab, Pinterest, Lyft, Intercom, Asana, Mercury, Mixpanel, Everlaw, Faire, Chime, Twilio, Twitch...), and **dev-tool / fintech / SaaS** on both.
 
 ## Caveats
 
