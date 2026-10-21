@@ -127,7 +127,12 @@ Change the `stateKey` ("daily-prod" / "weekly-recruiting" / "friend-x-watchlist"
 
 ## Sample output
 
-Check [`samples/`](samples/) for `greenhouse_sample.json` and `ashby_sample.json` — real snapshots so you can see the schema without running anything.
+Check [`samples/`](samples/) for:
+
+- `greenhouse_sample.json` + `ashby_sample.json` — real snapshots of the actor output so you can see the schema without running anything.
+- `jobs_merged_449.csv` — 449 jobs across 8 companies in the unified 12-column schema, including 113 rows with salary bands.
+- `verified_slugs.csv` / `verified_slugs.json` — **75 verified Greenhouse + Ashby slugs (10,491 open roles as of 2026-10-21)**. Drop-in input list for the delta scripts: AI labs (OpenAI, Cursor, Perplexity, Cohere, ElevenLabs, Harvey, Sierra, LangChain, Writer, Suno, Pika, Deepgram, OpenRouter, Pinecone...), big public tech (Databricks, Stripe, Anthropic, Robinhood, MongoDB, GitLab, Pinterest, Lyft, Intercom, Coinbase, Elastic...), and dev-tool/fintech SaaS.
+
 
 ## 5. Merge Greenhouse + Ashby into one CSV ([python/merge_ats_csv.py](python/merge_ats_csv.py))
 
