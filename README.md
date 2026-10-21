@@ -1,0 +1,113 @@
+# ATS daily-delta — Greenhouse + Ashby (Python)
+
+Track **only the new jobs** at Greenhouse and Ashby career boards (AI labs, scale-ups, Series B+), without re-processing the 600+ open roles on every run. Each run pushes a flat row per newly-opened job (`title`, `url`, `location`, `workplaceType`, `department`, `seniority`, salary band when posted, …) and remembers what it already sent across runs via a persistent `stateKey`.
+
+Scrapers:
+- **[apify.com/zet46/greenhouse-jobs-scraper](https://apify.com/zet46/greenhouse-jobs-scraper)** — Greenhouse public boards (`boards.greenhouse.io/<slug>`), 1 API call per board, 24 fields per job including classified `seniority` / `remoteType` / `aiEmploymentType`.
+- **[apify.com/zet46/ashby-jobs-scraper](https://apify.com/zet46/ashby-jobs-scraper)** — Ashby public boards (`jobs.ashbyhq.com/<slug>`), 30 fields including structured compensation (`salaryMin`, `salaryMax`, `salaryCurrency`, `salaryInterval`).
+
+Both actors are pay-per-event at **$0.50 per 1,000 jobs**. A new Apify account gets $5/month free credit — covers a 10-board baseline plus months of daily deltas.
+
+## Setup
+
+```bash
+pip install "apify-client>=3" requests
+export APIFY_TOKEN=...   # https://console.apify.com/settings/integrations
+```
+
+## 1. Baseline + delta on Greenhouse ([python/greenhouse_delta.py](python/greenhouse_delta.py))
+
+```bash
+python python/greenhouse_delta.py
+```
+
+First run (baseline for 4 boards, 240 jobs):
+```
+[board:anthropic] total 676, pushed 60 new (prev 0, now 676)
+[board:airbnb]    total 186, pushed 60 new (prev 0, now 186)
+[board:stripe]    total 730, pushed 60 new (prev 0, now 730)
+[board:figma]     total 142, pushed 60 new (prev 0, now 142)
+Done: 240 job(s) across 4 board(s)
+
+[anthropic] mid    | AI Operations Engineer, Partnerships — San Francisco, CA
+[anthropic] senior | Senior Research Engineer, Alignment — San Francisco, CA
+[airbnb]    senior | Staff Software Engineer, Payments — San Francisco, CA
+...
+```
+
+Second run (same input, 30 seconds later) — no new jobs opened in between:
+```
+onlyNewSinceLastRun ON; using KVS 'greenhouse-diff-daily-prod' (persists across runs)
+Done: 0 job(s) across 4 board(s)
+```
+
+Zero rows pushed. Zero rows billed. The actor stores a `set` of `(boardSlug, jobId)` under the `stateKey` in Apify's Key-Value Store between runs; on each run it fetches the current list, filters out IDs it has already seen, pushes the new ones to the dataset, and updates the stored set.
+
+## 2. Ashby, with salary ranges pre-extracted ([python/ashby_delta.py](python/ashby_delta.py))
+
+```bash
+python python/ashby_delta.py
+```
+
+```
+[board:openai] total 60,  pushed 60 new   — 53/60 with salary ranges (88%)
+[board:ramp]   total 60,  pushed 60 new   — 60/60 with salary ranges (100%)
+[board:notion] total 60,  pushed 60 new   —  0/60 with salary ranges
+[board:linear] total 29,  pushed 29 new   —  0/29 with salary ranges
+Done: 209 job(s) across 4 board(s)
+
+[openai] 257000-335000 USD/YEAR  | Technical Program Manager, Compute Infrastructure
+[openai] 250000-445000 USD/YEAR  | Research Engineer
+[openai] 293000-585000 USD/YEAR  | Research Engineer, Retrieval & Search, Applied Engineering
+[openai] 380000-500000 USD/YEAR  | Researcher, Safety Training
+[ramp]   180000-220000 USD/YEAR  | Senior Software Engineer, Payments
+```
+
+Compensation ranges show up where the employer opted in (CA, CO, NY, WA, and a growing list of pay-transparency jurisdictions). No HTML scraping on your side.
+
+## 3. Send new jobs to Slack on a 6-hour cron ([python/slack_watcher.py](python/slack_watcher.py))
+
+```bash
+export SLACK_WEBHOOK=https://hooks.slack.com/services/...
+python python/slack_watcher.py
+```
+
+The watcher calls both actors, posts each row to the given webhook, and prints `Posted N new jobs`. Schedule it with `cron 0 */6 * * *`, GitHub Actions, or Apify's built-in Scheduler.
+
+## Cost
+
+| Scenario                                           | Rows billed   | Cost    |
+| -------------------------------------------------- | ------------- | ------- |
+| First run on 8 boards covering ~450 jobs           | ~450          | $0.22   |
+| Zero-delta run (same input, nothing new)           | 0             | $0.00   |
+| 6-hour cron, average 3–8 new jobs / run / 8 boards | ~80 / month   | ~$0.04  |
+
+Pay-per-event; `onlyNewSinceLastRun` filtering happens before dataset push, so you don't pay for rows the actor already sent in a previous run under the same `stateKey`.
+
+## Fields you get back
+
+### Greenhouse (24 fields)
+
+`boardSlug`, `jobId`, `internalJobId`, `title`, `absoluteUrl`, `locationName`, `workplaceType` (`Remote`/`Hybrid`/`Onsite`), `metadata[]`, `departments`, `offices`, `requisitionId`, `firstPublished`, `updatedAt`, `applicationDeadline`, `language`, `companyName`, `contentHtml` (opt-in), `aiDisclaimer`, `aiOptOutUrl`, `seniority` (`intern`/`junior`/`mid`/`senior`/`staff`/`principal`/`director`/`vp`/`exec`), `remoteType` (`remote`/`hybrid`/`on_site`), `aiEmploymentType`, `parseConfidence` (0–1), `warnings[]`, `scrapedAt`.
+
+### Ashby (30 fields)
+
+`boardSlug`, `jobId`, `title`, `jobUrl`, `applyUrl`, `location`, `secondaryLocations[]`, `country`, `region`, `locality`, `workplaceType`, `workplaceTypeRaw`, `isRemote`, `employmentType`, `department`, `team`, `isListed`, `publishedAt`, `salaryMin`, `salaryMax`, `salaryCurrency`, `salaryInterval`, `equitySummary`, `bonusSummary`, `commissionSummary`, `compensationSummary`, `shouldDisplayCompensation`, `compensation` (full struct), `descriptionPlain`, `descriptionHtml`.
+
+Both actors also expose a **`mode=report`** that collapses one company into a single row with `hiringScore` 0–100, `priorityRoles[]`, `departmentSignals[]`, `expansionSignals[]`, etc. — see the Apify Store page for the full schema.
+
+## Multi-pipeline
+
+Change the `stateKey` ("daily-prod" / "weekly-recruiting" / "friend-x-watchlist") to run multiple independent diffs against the same boards without their state clobbering each other.
+
+## Use it from AI agents (MCP)
+
+```json
+{"mcpServers": {"apify": {"url": "https://mcp.apify.com?tools=zet46/greenhouse-jobs-scraper,zet46/ashby-jobs-scraper"}}}
+```
+
+Then ask Claude / Cursor *"what new senior engineering roles opened at Anthropic, Stripe and OpenAI since my last check?"*.
+
+---
+
+Output above is from real runs on 2026-10-21. Open-role counts and salary ranges change daily. MIT licensed.
