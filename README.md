@@ -108,6 +108,11 @@ Change the `stateKey` ("daily-prod" / "weekly-recruiting" / "friend-x-watchlist"
 
 Then ask Claude / Cursor *"what new senior engineering roles opened at Anthropic, Stripe and OpenAI since my last check?"*.
 
+## Related reading
+
+- [huynhtanan/jobs-ats-tracker](https://github.com/huynhtanan/jobs-ats-tracker) — companion repo with a broader SQLite-based tracker (50 orgs covering 9,618 open roles), plus a `compare_salaries.py` tool that ranks Ashby companies by yearly compensation band.
+- [dev.to/huynhtanan](https://dev.to/huynhtanan) — background write-ups on the Greenhouse and Ashby JSON endpoints and how pay-per-event scraping compares with Playwright-based ATS crawlers.
+
 ---
 
 Output above is from real runs on 2026-10-21. Open-role counts and salary ranges change daily. MIT licensed.
