@@ -37,6 +37,16 @@ df = pd.read_csv("samples/jobs_merged_449.csv")
 df[df["salaryMin"].notna()].groupby("company")["salaryMax"].median().sort_values()
 ```
 
+
+## verified_slugs.csv / verified_slugs.json
+
+Known-good Greenhouse and Ashby board slugs, verified live on **2026-10-21**: 75 companies covering **10,491 open roles** (36 Greenhouse / 7,182 roles + 39 Ashby / 3,309 roles).
+
+- CSV columns: `slug, ats, open_roles, api_url`.
+- JSON wraps the same rows plus a top-level `as_of` + `total_roles` + `orgs` summary.
+
+Use these as a starting board list for the  +  scripts, or as the source for a nightly multi-company tracker. The slugs cluster around three groups: AI labs on Ashby (OpenAI, Anthropic, Cohere, Mistral-ish, Cursor, Perplexity, ElevenLabs, Harvey, Sierra, Cognition, LangChain, Writer, Lambda, Fireworks, Pinecone, Deepgram, OpenRouter...), big public tech on Greenhouse (Databricks, Stripe, Anthropic, Elastic, MongoDB, Robinhood, Coinbase, GitLab, Pinterest, Lyft, Intercom, Asana, Mercury, Mixpanel, Everlaw...), and dev-tool / fintech on both.
+
 ## Caveats
 
 - Open-role counts and compensation bands change daily. These files are a **snapshot**, not a live feed.
